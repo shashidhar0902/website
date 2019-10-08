@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Everything About Css</title>
+    <style>
+        body {
+            background-image: url('');
+            /*repeat-x repeat-y*/
+            background-repeat: no-repeat;
+            background-size: 300px 300px;
+            background-position: top center;
+            background-attachment: scrolll;
+            background-color: rgb(250, 252, 251);
+            /*keep none if you dont want to scroll it*/
+        }
+        
+        h1 {
+            border-style: hidden hidden hidden solid;
+            background-color: #efefef;
+            border-width: 10px;
+            border-color: navy;
+            border-radius: 50px;
+        }
+        
+        .box {
+            background-color: #efefef;
+            width: 300px;
+            padding: 25px;
+        }
+        
+        .Good-One {
+            margin: 10px;
+            background-color: lightgrey;
+            border: 15px solid green;
+            outline: rgb(81, 165, 88) solid 10px;
+            padding: 50px;
+            width: 300px;
+        }
+        
+        .texts {
+            text-indent: 50px;
+            text-align: justify;
+            letter-spacing: 3px;
+            /*if you keep -ve values for letter-spacing they will merge*/
+            text-transform: capitalize;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Hello Borders.</h1>
+    <div class="box">
+        <p>this container has 350px padding.</p>
+    </div>
+    <div class="Good-One">
+        <p>This is in class Good-One hello this is some shit just for understanding.</p>
+    </div>
+    <div class="texts">Hello babe this is example for text-indent,text-align,letter-spacing.</div>
+</body>
+
+</html>
